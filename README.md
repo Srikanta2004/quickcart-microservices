@@ -6,12 +6,12 @@ The project focuses on clean service separation, secure authentication, and well
 What it includes
 - User, Product, Cart, and Order microservices
 - Spring Security with OAuth2 authentication
-- MySQL database with JPA/Hibernate
+- MySQL database with JPA
 - REST APIs documented using Swagger UI
 - External product integration via FakeStore API
 
 Tech stack
-Java  Spring Boot  Spring Security  OAuth2  MySQL  JPA  Swagger  REST APIs
+Java,,  Spring Boot,   Spring Security,   OAuth2,   MySQL,   JPA,   Swagger,   REST APIs
 
 Running the project
 1. Clone the repository
