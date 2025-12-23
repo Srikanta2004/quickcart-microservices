@@ -1,54 +1,26 @@
-# QuickCart – E-Commerce Backend (Microservices)
+# QuickCart – Microservices E-Commerce Backend
 
-QuickCart is a backend e-commerce project I built to understand how real-world backend systems are designed using Spring Boot microservices. The focus of this project is clean service separation, secure authentication, and building reliable REST APIs.
+QuickCart is a Spring Boot–based e-commerce backend built using a microservices architecture.  
+The project focuses on clean service separation, secure authentication, and well-structured REST APIs.
 
-## Why I built this
-I wanted hands-on experience with designing a microservices-based backend, implementing authentication and security properly, working with databases, and integrating external APIs. This project helped me understand how independent services work together in a scalable system.
+What it includes
+- User, Product, Cart, and Order microservices
+- Spring Security with OAuth2 authentication
+- MySQL database with JPA/Hibernate
+- REST APIs documented using Swagger UI
+- External product integration via FakeStore API
 
-## What the system does
-- Manages users, products, carts, and orders
-- Supports secure authentication using Spring Security and OAuth2
-- Stores data in MySQL using JPA/Hibernate
-- Exposes REST APIs that can be tested using Swagger UI
-- Integrates external product data using the FakeStore API
+Tech stack
+Java  Spring Boot  Spring Security  OAuth2  MySQL  JPA  Swagger  REST APIs
 
-## Services in this project
-- **User Service** – Handles user registration, login, and OAuth2 authentication
-- **Product Service** – Manages product information and integrates the FakeStore API
-- **Cart Service** – Handles cart operations for users
-- **Order Service** – Manages order creation and checkout logic
-
-Each service runs independently and follows proper separation of concerns.
-
-## Tech stack used
-- Java
-- Spring Boot
-- Spring Security & OAuth2
-- MySQL
-- JPA / Hibernate
-- Swagger UI
-- REST APIs
-
-## Security notes
-Authentication is implemented using Spring Security. OAuth2 is used for social login. Sensitive credentials are not included in the repository and are configured locally.
-
-## Running the project
+Running the project
 1. Clone the repository
 2. Configure database and OAuth credentials locally
-3. Run each microservice separately
-4. Use Swagger UI or Postman to test the APIs
+3. Run each microservice independently
+4. Test APIs using Swagger UI or Postman
 
-## What I learned
-- How microservices differ from monolithic applications
-- How authentication works in real backend systems
-- Structuring Spring Boot applications cleanly
-- Writing APIs that are easy to understand and maintain
+Notes
+Sensitive configuration values are excluded from the repository and managed locally.
 
-## Future improvements
-- Add an API Gateway
-- Introduce service discovery
-- Implement payment handling
-- Containerize services using Docker
-
-## About the project
-This project was designed and built independently as part of my backend learning journey.
+## About
+Built independently to gain hands-on experience with backend development and microservices.
